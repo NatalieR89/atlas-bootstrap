@@ -1,56 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brick Crusaders</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/favicon.png" type="images/png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brick Crusaders</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-    <header>
-        <nav>
-            <a href="index.html">
-                <img src="images/logo.png" alt="Logo" class="logo">
-            </a>
-            <ul class="navbar">
-                <li><a href="models.html">Models</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="updates.html">Updates</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>            
-        </nav>
-    </header>
+<body style="font-family: 'MedievalSharp', cursive;">
 
-    <main>
+  <!-- Header/Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Brick Crusaders</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!-- MAIN -->
-        <section>
-            <div class="overview">
-                <h1>BRICK CRUSADERS</h1>
-                <p>Brick Crusaders is a strategic medieval fantasy tabletop wargame that utilizes Lego Minifigures as the primary models for gameplay.
-                    Brick Crusaders is a solo-designed project, crafted by Natalie. Currently in its early stages, the game is filled with numerous ideas that are actively being developed for future implementation.
-                    As of right now, there are two 2 factions in the works, Humans and Undead with faction names still being decided on.
-                    It will remain in continuous development, with ongoing adjustments made to ensure gameplay remains as balanced and engaging as possible.
-                 </p>            
-            </div>
-        </section>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="models.html">Models</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <!--Needs Work-->
-    <footer>
-        <p>&copy; 2025 Brick Crusaders. All rights reserved.</p>
-    </footer>
+  <!-- Main Content -->
+  <main class="container my-5">
+    <section class="text-center">
+      <h1 class="display-4 mb-4">BRICK CRUSADERS</h1>
+      <p class="lead">
+        Brick Crusaders is a strategic medieval fantasy tabletop wargame that utilizes LEGO Minifigures as the primary models for gameplay.
+        <br><br>
+        This solo-designed project, crafted by Natalie, is in its early stages and constantly evolving. Two factions are currently in development: Humans and Undead (faction names pending).
+        <br><br>
+        Expect ongoing updates to ensure gameplay is balanced, engaging, and ever-expanding.
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Brick Crusaders. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS & jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
-<!--WEB DESIGN IDEAS BELOW-->
-
-<!--Add A Suggestions Page
-    Maybe Move Sections To Seperate Pages
-    Faction Names -
-    The Argent Order
-    Scourgebourne
