@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #f8f9fa;
   color: #212529;
 }
 
@@ -10,10 +10,10 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #ffc107; /* Gold/yellow on hover */
+  color: #ffc107;
   text-decoration: underline;
 }
 
 .nav-link:active {
-  color: #f44336; /* Red on click */
+  color: #f44336;
 }

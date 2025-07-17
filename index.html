@@ -5,23 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brick Crusaders</title>
 
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-
-  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet" />
 
-  <!-- Favicon -->
+
   <link rel="icon" href="images/favicon.png" type="image/png" />
 
-  <!-- Custom Styles -->
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body style="font-family: 'MedievalSharp', cursive;">
 
-  <!-- Header/Navbar -->
+
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
@@ -51,7 +48,6 @@
   <section class="bg-dark text-white py-5">
   <div class="container">
     <div class="row align-items-center">
-      <!-- Text Content -->
       <div class="col-lg-6 text-center text-lg-left mb-4 mb-lg-0">
         <h2 class="display-4">Enter the Realm of Brick Crusaders</h2>
         <p class="lead">
@@ -60,7 +56,6 @@
         <a href="models.html" class="btn btn-warning btn-lg mt-3">View Factions</a>
       </div>
 
-      <!-- Image -->
       <div class="col-lg-6 text-center">
         <img src="images/banner-minifig.png" alt="Lego Minifigures in battle pose" class="img-fluid rounded shadow-lg" style="max-height: 300px;">
       </div>
@@ -68,7 +63,6 @@
   </div>
 </section>
 
-  <!-- Main Content -->
   <main class="container my-5">
     <section class="text-center">
       <h1 class="display-4 mb-4">BRICK CRUSADERS</h1>
@@ -81,7 +75,6 @@
       </p>
     </section>
 
-    <!-- Quote Carousel Section -->
 <section class="py-5 bg-light">
   <div class="container">
     <h2 class="text-center mb-4">What People Are Saying</h2>
@@ -89,7 +82,6 @@
     <div id="quoteCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
 
-        <!-- Card 1 -->
         <div class="carousel-item active">
           <div class="card p-3">
             <div class="row no-gutters align-items-center flex-column flex-md-row">
@@ -106,7 +98,6 @@
           </div>
         </div>
 
-        <!-- Card 2 -->
         <div class="carousel-item">
           <div class="card p-3">
             <div class="row no-gutters align-items-center flex-column flex-md-row">
@@ -125,7 +116,6 @@
 
       </div>
 
-      <!-- Controls -->
       <a class="carousel-control-prev" href="#quoteCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -137,9 +127,213 @@
     </div>
   </div>
 </section>
+
+<section class="container my-5">
+  <h2 class="mb-4 text-center">Featured Cards</h2>
+  <div id="multiCardCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card 1">
+              <div class="card-body">
+                <h5 class="card-title">Card 1</h5>
+                <p class="card-text">Description for card 1.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 d-none d-md-block">
+            <div class="card h-100">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card 2">
+              <div class="card-body">
+                <h5 class="card-title">Card 2</h5>
+                <p class="card-text">Description for card 2.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 d-none d-lg-block">
+            <div class="card h-100">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card 3">
+              <div class="card-body">
+                <h5 class="card-title">Card 3</h5>
+                <p class="card-text">Description for card 3.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 d-none d-lg-block">
+            <div class="card h-100">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card 4">
+              <div class="card-body">
+                <h5 class="card-title">Card 4</h5>
+                <p class="card-text">Description for card 4.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100">
+              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card 5">
+              <div class="card-body">
+                <h5 class="card-title">Card 5</h5>
+                <p class="card-text">Description for card 5.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2 class="mb-4">Choose Your Option</h2>
+  <div class="dropdown mb-3">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+      Select an option
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><a class="dropdown-item" href="#">Option 1</a></li>
+      <li><a class="dropdown-item" href="#">Option 2</a></li>
+      <li><a class="dropdown-item" href="#">Option 3</a></li>
+    </ul>
+  </div>
+
+  <p>placeholder</p>
+
+  <div class="alert alert-info mt-3" role="alert">
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row">
+    <aside class="col-md-4 mb-3 mb-md-0">
+      <div class="p-3 bg-light border rounded">
+        <h5>Quick Info</h5>
+        <p>This sidebar provides helpful tips, summaries, or extra links related to the main content.</p>
+        <ul class="list-unstyled">
+          <li><a href="#">Helpful Link 1</a></li>
+          <li><a href="#">Helpful Link 2</a></li>
+          <li><a href="#">Helpful Link 3</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="col-md-8">
+      <h2>Main Content Area</h2>
+      <p>This is the primary content of the section. The layout is responsive and adjusts nicely to different screen sizes.</p>
+      <p>Try resizing the window — the sidebar will move above this content on smaller screens.</p>
+      <div class="alert alert-secondary">
+        Bootstrap makes responsive layouts easy with its grid system.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5">
+  <div class="text-center mb-5">
+    <h2 class="display-4 fw-bold">Meet the Team</h2>
+    <p class="text-muted">The passionate people behind the project. Each brings a unique skillset and drive to make things extraordinary.</p>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-sm-6 col-lg-3">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="https://source.unsplash.com/200x200/?woman,face" class="card-img-top" alt="Team Member 1">
+        <div class="card-body">
+          <h5 class="card-title">Avery Lang</h5>
+          <p class="card-text">Lead Designer passionate about clean visuals and intuitive experiences. Loves cats and color palettes.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <a href="#" class="btn btn-outline-primary w-100">Connect</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="https://source.unsplash.com/200x200/?man,face" class="card-img-top" alt="Team Member 2">
+        <div class="card-body">
+          <h5 class="card-title">Elijah Moore</h5>
+          <p class="card-text">Backend Engineer making the magic happen behind the scenes. A wizard with APIs and logic trees.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <a href="#" class="btn btn-outline-primary w-100">Connect</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="https://source.unsplash.com/200x200/?woman,tech" class="card-img-top" alt="Team Member 3">
+        <div class="card-body">
+          <h5 class="card-title">Jordan Chen</h5>
+          <p class="card-text">Full-stack Dev with a love for problem-solving and cutting-edge tech. Probably debugging something right now.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <a href="#" class="btn btn-outline-primary w-100">Connect</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-3">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="https://source.unsplash.com/200x200/?nonbinary,portrait" class="card-img-top" alt="Team Member 4">
+        <div class="card-body">
+          <h5 class="card-title">Sam Rivers</h5>
+          <p class="card-text">UX Researcher who thrives on user stories and clear pathways. Champion of accessibility and flow.</p>
+        </div>
+        <div class="card-footer bg-transparent">
+          <a href="#" class="btn btn-outline-primary w-100">Connect</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5>Follow Us</h5>
+        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a><br>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i> Instagram</a><br>
+        <a href="#" class="text-white"><i class="bi bi-facebook"></i> Facebook</a>
+      </div>
+
+
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-white">Home</a></li>
+          <li><a href="#about" class="text-white">About</a></li>
+          <li><a href="#contact" class="text-white">Contact</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-4">
+        <h5>About</h5>
+        <p class="mb-0">Made with using Bootstrap<br>© 2025 Brick Crusaders</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
   </main>
 
-  <!-- Footer -->
+
   <footer class="bg-dark text-white text-center py-3">
     <p class="mb-0">&copy; 2025 Brick Crusaders. All rights reserved.</p>
   </footer>
